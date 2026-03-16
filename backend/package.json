@@ -1,0 +1,26 @@
+{
+  "name": "backend-learn",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/harshithsr20/backend-learn#readme",
+  "bugs": {
+    "url": "https://github.com/harshithsr20/backend-learn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshithsr20/backend-learn.git"
+  },
+  "license": "ISC",
+  "author": "Harshith sr",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  }
+}
